@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Lewis Hamilton — Helmets & Career</title>
+<link rel="stylesheet" href="./style.css">
+
+</head>
+<body oncontextmenu="return false;"> <!-- disable right-click -->
+
+<nav>
+    <div class="brand">Lewis Hamilton Fan Showcase</div>
+    <div class="nav-links">
+        <a href="#intro-heading">Home</a> <!-- fixed Home link -->
+        <a href="#bio">About</a>
+        <a href="#gallery">Helmets</a>
+    </div>
+</nav>
+
+<div class="container">
+
+    <!-- INTRO HERO with basic information -->
+    <section id="bio" class="intro" aria-labelledby="intro-heading">
+        <div class="intro-img" aria-hidden="true">
+            <img src="https://i.pinimg.com/736x/80/1a/e7/801ae7edde3f456c2ba55e8f7f2b0802.jpg" alt="Lewis Hamilton portrait">
+        </div>
+
+        <div class="intro-content">
+            <h1 id="intro-heading">Lewis Hamilton</h1>
+            <div class="subtitle">7× Formula 1 World Champion • Record race-winner • Activist & style icon</div>
+            <p>
+                Lewis Carl Davidson Hamilton (born January 7, 1985) is a British racing driver widely considered
+                one of the greatest Formula 1 competitors. He debuted in F1 with McLaren in 2007, won his first
+                championship in 2008, and later joined Mercedes where he secured multiple world titles. Off-track,
+                Hamilton is notable for his activism on diversity, sustainability, and social justice, and for his
+                influence in fashion and culture.
+            </p>
+
+            <div class="cta-row">
+                <button class="btn" onclick="document.getElementById('gallery').scrollIntoView({behavior:'smooth'})">View Helmet Collection</button>
+                <button class="btn" style="background:transparent;border:1px solid rgba(255,255,255,0.06);" onclick="document.getElementById('timeline').scrollIntoView({behavior:'smooth'})">Jump to Timeline</button>
+            </div>
+
+            <!-- TIMELINE -->
+            <div id="timeline" class="timeline-wrap" aria-label="Career timeline">
+                <div class="timeline-title">Career Timeline — key milestones</div>
+                <div class="timeline">
+                    <div class="tl-item">
+                        <h4>1993–2000 — Early karting</h4>
+                        <p>Started karting at age 8 and progressed through junior categories quickly.</p>
+                    </div>
+
+                    <div class="tl-item">
+                        <h4>2001–2006 — Junior formula success</h4>
+                        <p>Strong results in Formula Renault and GP2 set him up for an F1 seat.</p>
+                    </div>
+
+                    <div class="tl-item">
+                        <h4>2007 — F1 debut with McLaren</h4>
+                        <p>Outstanding rookie season: race wins and multiple podiums.</p>
+                    </div>
+
+                    <div class="tl-item">
+                        <h4>2008 — First World Championship</h4>
+                        <p>Won his first Drivers' Championship in a dramatic season finale in Brazil.</p>
+                    </div>
+
+                    <div class="tl-item">
+                        <h4>2013 — Joined Mercedes</h4>
+                        <p>Moved to Mercedes-AMG Petronas and started a dominant era for the team.</p>
+                    </div>
+
+                    <div class="tl-item">
+                        <h4>2014–2020 — Multiple World Championships</h4>
+                        <p>Secured six more titles during a period of Mercedes dominance.</p>
+                    </div>
+
+                    <div class="tl-item">
+                        <h4>2021 — Historic title battle</h4>
+                        <p>Contested a tightly fought championship season that drew global attention.</p>
+                    </div>
+
+                    <div class="tl-item">
+                        <h4>2022–2025 — Continued legacy</h4>
+                        <p>Remains a central figure in F1, advocating for social causes and influencing motorsport culture.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- GALLERY -->
+    <h2 class="section-title" id="gallery">Helmet Gallery</h2>
+
+    <div class="helmet-grid" aria-live="polite">
+
+        <!-- card list (all helmets included previously) -->
+        <div class="helmet-card" data-img="https://i.pinimg.com/1200x/08/bb/34/08bb34eb38cd4b51a65f770fb6186be4.jpg" data-title="2025 Singapore GP" data-desc=" For the 2025 Singapore Grand Prix, Lewis Hamilton wore a special one-off full gold chrome helmet with sparkles that was designed to shimmer brightly under the Marina Bay night race floodlights. This design was a notable change from his standard 2025 helmet and became an instant fan favorite.">
+            <img src="https://i.pinimg.com/736x/b3/6d/a1/b36da12797e918c310d140998aaca26f.jpg" alt="2025 gold Edition">
+            <p>2025 Singapore GP</p>
+        </div>
+
+        <div class="helmet-card" data-img="https://i.pinimg.com/1200x/16/31/e6/1631e6b97e9952dc7b5662f849215b76.jpg" data-title="2022 Pride Edition" data-desc="In an effort to raise awareness of equal rights in the region, Hamilton’s 2021 Qatar Grand Prix helmet design featured the Progress Pride Flag. He has since reprised similar designs at the 2023 Miami Grand Prix and again at this season’s Qatar Grand Prix. In the 2021 race, Hamilton was on imperious form, and was only denied the coveted grand slam by Verstappen’s late-race fastest lap">
+            <img src="https://i.pinimg.com/1200x/98/e0/c1/98e0c1977993594aa8d024b9b5e371e5.jpg" alt="2022 Pride Edition">
+            <p>2021 Qatar GP</p>
+        </div>
+
+        <div class="helmet-card" data-img="https://i.pinimg.com/1200x/d9/45/0d/d9450dcc2fc61fad29ea5dae686bc89b.jpg" data-title="2023 Japanese Grand Prix – Hajime Sorayama" data-desc="For the Japanese Grand Prix in 2023, Hamilton worked alongside Japanese illustrator, Hajime Sorayama to create a striking helmet design unlike anything the F1 paddock has seen before. Enhanced by a light-up visor, the bold aesthetic is a nod to Sorayama’s conceptual work on robots and an accompanying apparel collection furthered the collaborative thread. After some entertaining battles with his teammate, George Russell during the race, Hamilton brought the car home in fifth place">
+            <img src="https://i.pinimg.com/1200x/a8/e3/2d/a8e32d4634f074fc2649bc3c23375ed4.jpg" alt="2021 Championship Helmet">
+            <p>2023 Japanese GP</p>
+        </div>
+
+        <div class="helmet-card" data-img="https://i.pinimg.com/736x/aa/ec/d2/aaecd2f46c0aee2616d83e298c53aee1.jpg" data-title="2019 Monaco Grand Prix – Lauda tribute" data-desc="Less than a week before the 2019 Monaco Grand Prix was due to take place, three-time F1 world champion and Non-Executive Chairman of Mercedes, Niki Lauda passed away. To honour his memory, all 20 drivers paid tribute by wearing red caps on the starting grid prior to the race. Accompanying Mercedes’ red halos, Hamilton also revived Lauda’s classic helmet design paying homage to the man himself, and delivered a drive worthy of his memory by fending off Verstappen in the closing stages to win.">
+            <img src="https://i.pinimg.com/1200x/7c/f2/47/7cf247b7652a5f6c5ea0b14cd2c1611f.jpg" alt="Classic Yellow Helmet">
+            <p>2019 Monaco GP</p>
+        </div>
+
+        <div class="helmet-card" data-img="https://i.pinimg.com/736x/f6/54/96/f65496d72061af5dda8c342a6c67b755.jpg" data-title="2023 Brazilian GP" data-desc="For the 2023 Brazilian Grand Prix (São Paulo GP), Lewis Hamilton wore a special edition helmet that was a vibrant tribute to Brazil and his hero, Ayrton Senna..">
+            <img src="https://i.pinimg.com/736x/c2/3e/11/c23e11fb9c6b9390e5ba24ac9c132c70.jpg" alt="2019 Purple Yellow Helmet">
+            <p>2023 Brazilian GP</p>
+        </div>
+
+        <div class="helmet-card" data-img="https://i.pinimg.com/1200x/04/5f/e6/045fe6aae6eecfbcb7b10738490dbddc.jpg" data-title="2023 Bahrain GP" data-desc="In both the 2023 and 2024 Bahrain Grands Prix, Lewis Hamilton wore his respective standard season-opening helmets, each carrying specific design themes and personal statements, rather than one-off specials for the event.">
+            <img src="https://i.pinimg.com/1200x/cb/88/77/cb88778ad9bbce8b67219f9317e5c430.jpg" alt="2020 BLM Helmet">
+            <p>2023 Bahrain</p>
+        </div>
+
+        <div class="helmet-card" data-img="https://i.pinimg.com/736x/43/07/a9/4307a9c8b12d0be1b0fa41eb57426e12.jpg" data-title="2024 Bahrain gp" data-desc="For his final season with Mercedes in 2024, Hamilton moved away from the bright yellow as the dominant color, returning to a design that was predominantly purple with yellow and black elements.">
+            <img src="https://i.pinimg.com/736x/99/d7/e6/99d7e633b837986d2c9b1a5d77b8cb23.jpg" alt="2017 Helmet">
+            <p>2024 Bahrain GP</p>
+        </div>
+
+        <div class="helmet-card" data-img="https://i.pinimg.com/736x/ee/f4/11/eef411f98edd77914382ccf36ff3a592.jpg" data-title="2022 Japanese GP " data-desc="For the 2022 Japanese Grand Prix, Lewis Hamilton collaborated with Japanese artist Takashi Murakami on a special helmet design featuring Murakami's signature Flowers motif, which also served to promote Hamilton's new clothing brand, +44. The collaboration was a major talking point among fans, and a limited edition model of the helmet was later released as a collector's item.">
+            <img src="https://i.pinimg.com/1200x/e7/11/1b/e7111bbcc403cbc73237ba52ffaa9d2a.jpg" alt="2015 Helmet">
+            <p>2022 Japanese GP</p>
+        </div>
+ 
+
+    </div> <!-- helmet-grid -->
+
+</div> <!-- container -->
+
+<!-- MODAL (hidden until activated) -->
+<div id="modal" role="dialog" aria-hidden="true">
+    <button class="close-btn" title="Close (Esc)" aria-label="Close">&times;</button>
+
+    <div class="modal-inner" role="document" aria-live="polite">
+        <img id="modalImage" class="modal-img" src="" alt="">
+        <div class="modal-meta">
+            <h3 id="modalTitle">Helmet title</h3>
+            <div id="modalDesc" class="meta-line">Helmet description</div>
+
+            <div style="margin-top:14px; font-size:13px; color: #cfc6e8;">
+                Tip: press <strong>Esc</strong> to close.
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer>
+    Anh Khoi - Wang Hoanh
+</footer>
+
+<script>
+(function(){
+    const cards = Array.from(document.querySelectorAll('.helmet-card'));
+    const modal = document.getElementById('modal');
+    const modalImage = document.getElementById('modalImage');
+    const modalTitle = document.getElementById('modalTitle');
+    const modalDesc = document.getElementById('modalDesc');
+    const closeBtn = document.querySelector('.close-btn');
+
+    let currentIndex = -1;
+
+    function openModal(index){
+        const card = cards[index];
+        if(!card) return;
+        currentIndex = index;
+        const img = card.getAttribute('data-img');
+        const title = card.getAttribute('data-title') || '';
+        const desc = card.getAttribute('data-desc') || '';
+        modalImage.src = img;
+        modalImage.alt = title;
+        modalTitle.textContent = title;
+        modalDesc.textContent = desc;
+        modal.style.display = 'flex';
+        modal.setAttribute('aria-hidden','false');
+        closeBtn.focus();
+    }
+
+    function closeModal(){
+        modal.style.display = 'none';
+        modal.setAttribute('aria-hidden','true');
+        currentIndex = -1;
+        modalImage.src = '';
+    }
+
+    // card clicks
+    cards.forEach((c, i) => {
+        c.addEventListener('click', ()=> openModal(i));
+        c.addEventListener('keydown', (e) => {
+            if(e.key === 'Enter' || e.key === ' ') openModal(i);
+        });
+        c.setAttribute('tabindex','0');
+    });
+
+    // close by clicking outside modal-inner
+    modal.addEventListener('click', (e)=>{
+        if(e.target === modal) closeModal();
+    });
+
+    // close button
+    closeBtn.addEventListener('click', closeModal);
+
+    // keyboard: Esc to close; left/right navigation removed per request
+    document.addEventListener('keydown', (e)=>{
+        if(modal.style.display !== 'flex') return;
+        if(e.key === 'Escape') closeModal();
+    });
+
+    // make close button keyboard accessible
+    closeBtn.setAttribute('tabindex','0');
+})();
+</script>
+
+</body>
+</html>
